@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url("img/bg1.jpg");
   min-height: 92vh;
   overflow: auto;
@@ -19,6 +22,7 @@ body {
   font-weight: 700;
   font-size: 2.4rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Poppins', sans-serif;
 }
 .app-main {
   min-height: 10vh;
@@ -39,6 +43,7 @@ body {
     #92fe9d,
     #c0dfec
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Poppins', sans-serif;
 }
 .app-main > * {
   margin-bottom: 20px;
@@ -69,6 +74,7 @@ body {
     #da1e4e,
     #e4603a
   );
+  font-family: 'Poppins', sans-serif;
 }
 .location-deatils {
   font-weight: bold;
@@ -108,6 +114,7 @@ body {
 @media screen and (max-width: 800px) {
   .app-main {
     width: 95%;
+    /* height : auto; */
     padding: 10px;
   }
   body {
